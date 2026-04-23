@@ -38,7 +38,17 @@ public class DataStore {
         sensors.add(new Sensor("LIGHT-022", "LIGHT", "Active", 75, "ROOM-005"));
         
         sensors.add(new Sensor("FIRE-022", "Fire Alaram", "Maintenance", 0.0, "LAB-100"));
+        
+        rooms.get(0).getSensorIds().add("TEMP-022");
+        rooms.get(0).getSensorIds().add("FIRE-022");
+        rooms.get(1).getSensorIds().add("LIGHT-022");
+    
+    
+        
+        
     }
+    
+    
     
     
     
